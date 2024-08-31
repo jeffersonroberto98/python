@@ -5,5 +5,17 @@ next -> me entregue o próximo valor
 iter -> me entregue seu iterador
 '''
 
-texto = iter('Jefferson') # __iter__()
-print(texto)
+# for letra in texto
+texto = 'Jefferson' # iterável
+
+# iteratador = iter(texto) # iterator
+
+# while True:
+#     try:
+#         letra = next(iteratador)
+#         print(letra)
+#     except StopIteration:
+#         break
+
+for letra in texto:
+    print(letra)
